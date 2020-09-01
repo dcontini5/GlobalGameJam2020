@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3764821499932435895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3764821499932435899}
+  - component: {fileID: 3764821499932435898}
+  - component: {fileID: 3764821499932435893}
+  m_Layer: 2
+  m_Name: Respawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3764821499932435899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764821499932435895}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3764821499932435898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764821499932435895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10d3c9d62395528438f61e9e4e479926, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ores:
+  - {fileID: 6386640635172667345, guid: e60ac38308b4e6d4ca79669acba85d7d, type: 3}
+  - {fileID: 8406798547879346008, guid: 7071874f32d70614da9819fa31393c64, type: 3}
+  - {fileID: 7054782158310835213, guid: 51260dbef06174740bd021ccca2da5f5, type: 3}
+  - {fileID: 1655105708925208161, guid: cfdf3bd2022a5da4d919021048481cad, type: 3}
+  - {fileID: 2339719036240131893, guid: 3c77c0a5273b7c64dbc94588e26cc1d1, type: 3}
+  rarity: 0400000003000000020000000100000002000000
+  SpawnArea: 20
+  minSpawnDistance: 60
+  RayCastHeight: 40
+  RayCastLenght: 80
+--- !u!135 &3764821499932435893
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764821499932435895}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 80
+  m_Center: {x: 0, y: 0, z: 0}
